@@ -1,6 +1,13 @@
-# Connect to existing container
+# Execute command on active container
+
 ```
-docker exec -it myapp_1 /bin/bash
+docker exec -it app_1 /bin/bash
+```
+
+# Create container and execute bash shell 
+
+```
+docker run -it myapp/app:latest bash
 ```
 
 # Remove container
