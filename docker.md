@@ -1,3 +1,8 @@
+# Connect to existing container
+```
+docker exec -it myapp_1 /bin/bash
+```
+
 # Remove container
 
 Remove each inactive container that contains 'myapp' keyword in its name **(be careful !!)**
