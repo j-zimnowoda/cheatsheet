@@ -1,3 +1,7 @@
+# Download image
+```
+docker image pull nginx
+```
 # Execute command on active container
 
 ```
